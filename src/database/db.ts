@@ -5,7 +5,7 @@ dotenv.config({ path: ".env" });
 
 export const sequelize = new Sequelize(
   'patient_ref',
-  'admin',
+  'alen',
   '123',
   {
     host: 'localhost',
